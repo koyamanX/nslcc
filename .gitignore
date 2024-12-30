@@ -1,0 +1,5 @@
+*.nsl
+nslcc
+*.o
+a.out
+*.v

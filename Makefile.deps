@@ -1,0 +1,12 @@
+Context.o: Context.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
+Emitter.o: Emitter.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
+Lexer.o: Lexer.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
+Parser.o: Parser.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
+Writer.o: Writer.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
+main.o: main.cpp nslcc.hpp Writer.hpp Token.hpp Lexer.hpp Node.hpp \
+ Parser.hpp Emitter.hpp Context.hpp
